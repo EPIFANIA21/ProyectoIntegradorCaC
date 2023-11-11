@@ -96,4 +96,14 @@
       font-size: 0.8rem;
     }
   }
-
+  
+@media (prefers-reduced-motion:reduce){
+  .btn{transition:none;}
+  }
+.btn-lg{padding:.5rem 1rem;font-size:1.25rem;border-radius:.3rem;}
+.btn-form{background:#96c93e;color:#fff!important;}
+.btn-form:hover{background:#74aa17;}
+@media (min-width: 992px){
+  .btn-compra-tickets{border:1px solid transparent;border-radius:.8rem;}
+  .btn-compra-tickets:hover{background:#25a342;}
+  }
